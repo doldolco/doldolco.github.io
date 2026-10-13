@@ -9,106 +9,76 @@
   h1 { font-size: 1.5em; } h2 { font-size: 1.15em; margin-top: 2em; } h3 { font-size: 1em; }
   hr { margin: 3em 0; border: none; border-top: 1px solid #ddd; }
   .muted { color: #777; } a { color: #0a66c2; }
+  table { border-collapse: collapse; width: 100%; font-size: 0.92em; }
+  th, td { border: 1px solid #ddd; padding: 8px; text-align: left; vertical-align: top; }
+  @media (max-width: 600px) { table { display: block; overflow-x: auto; } th, td { min-width: 120px; } }
 </style>
 </head>
 <body>
 
 <h1>개인정보처리방침 — 탈출해, 양! (Escape, Sheep!)</h1>
-<p class="muted">시행일: 2026-08-05 · <a href="#english">English below</a></p>
-<p>본 방침은 App Store·Google Play로 배포되는 앱(이하 &quot;iOS·Android판&quot;)과 앱인토스(Apps in Toss)로 제공되는 미니앱(이하 &quot;앱인토스판&quot;)에 함께 적용됩니다. 판마다 다른 부분은 구분해 표기합니다.</p>
-<h2>1. 개발자 정보</h2>
-<p>본 게임은 씨피웍스(CP Works)가 개발·운영합니다.<br>개인정보 보호책임자: 박청민<br>문의: contact@cpworks.kr</p>
-<h2>2. 수집하는 정보와 목적</h2>
-<p>본 게임은 회원가입·로그인이 없으며, 개발자가 직접 개인정보를 수집·저장하지 않습니다. 다만 게임에 포함된 제3자 광고 기능이 광고 제공을 위해 정보를 수집·처리할 수 있으며, 사용하는 광고 SDK는 판마다 다릅니다.</p>
-<h3>2-1. iOS·Android판 — Google AdMob</h3>
-<ul>
-<li>기기 광고 식별자 및 기기 식별자</li>
-<li>광고 노출·상호작용 데이터(본 광고를 본 기록, 앱 실행·조작 등)</li>
-<li>대략적 위치(IP 주소 기반)</li>
-<li>진단 정보(크래시 로그, 성능 데이터)</li>
-</ul>
-<p>목적: 광고 제공 및 광고 성과 측정, SDK 진단·개선. 본 게임은 개인화되지 않은(non-personalized) 광고를 기준으로 하며, 앱 추적 투명성(ATT) 동의 요청을 표시하지 않습니다.</p>
-<h3>2-2. 앱인토스판 — 앱인토스 인앱 광고</h3>
-<p>앱인토스판에서는 Google AdMob SDK가 동작하지 않으며, 광고는 앱인토스가 제공하는 인앱 광고 기능으로만 노출됩니다. 이 기능은 토스 애즈와 Google AdMob을 통합한 것으로, 실행 환경에 따라 둘 중 하나가 광고 네트워크로 자동 선택됩니다.</p>
-<ul>
-<li>광고를 요청할 때 본 게임이 전달하는 값은 앱인토스 콘솔에서 발급받은 광고 그룹 ID뿐이며, 이용자를 식별하는 값은 전달하지 않습니다.</li>
-<li>광고는 토스 앱 안에서 노출되며, 광고 제공·성과 측정을 위해 처리되는 정보의 항목과 처리 방법은 토스 및 선택된 광고 네트워크의 방침을 따릅니다(3항 링크 참고).</li>
-<li>본 게임은 토스 로그인을 사용하지 않으며, 앱인토스가 제공하는 이용자 식별값도 사용하지 않습니다.</li>
-<li>앱인토스 SDK는 게임 실행 중 진단·성능 이벤트(화면 전환, 오류 메시지, 프레임 지연, 메모리 상태 등)를 앱인토스 플랫폼으로 전송합니다. 본 게임은 이 이벤트에 이용자를 식별하는 값을 담지 않습니다.</li>
-<li>앱인토스판은 토스 앱 안에서 실행되므로 본 게임이 별도의 앱 추적 투명성(ATT) 동의 요청을 표시하지 않습니다.</li>
-</ul>
-<h2>3. 제3자 SDK</h2>
-<ul>
-<li>(iOS·Android판) Google AdMob (Google LLC): 광고 제공. Google의 데이터 처리는 Google 개인정보처리방침 및 광고 정책을 따릅니다.</li>
-<ul>
-<li>Google 개인정보처리방침: <a href="https://policies.google.com/privacy">https://policies.google.com/privacy</a></li>
-<li>Google 광고 관련 정책: <a href="https://policies.google.com/technologies/ads">https://policies.google.com/technologies/ads</a></li>
-</ul>
-<li>(앱인토스판) 앱인토스 인앱 광고 (주식회사 비바리퍼블리카): 광고 제공. 토스의 데이터 처리는 토스 개인정보처리방침을 따릅니다. 실행 환경에 따라 Google AdMob이 광고 네트워크로 선택될 수 있으며, 이 경우 Google의 데이터 처리에는 위 Google 정책이 함께 적용됩니다.</li>
-<ul>
-<li>토스 개인정보처리방침: <a href="https://toss.im/privacy-policy">https://toss.im/privacy-policy</a></li>
-</ul>
-</ul>
-<h2>4. 기기 로컬 저장 (서버 전송 없음)</h2>
-<p>게임 진행도·기록(최고 클리어 레벨, 코인, 스테이지 기록 등)은 이용자 기기 내부에만 저장되며, 개발자 서버나 외부로 전송되지 않습니다. iOS·Android판은 앱을 삭제하면 함께 삭제되고, 앱인토스판은 미니앱의 저장 데이터가 삭제되면 함께 삭제됩니다.</p>
-<h2>5. 어린이 보호</h2>
-<p>본 게임은 특정 연령의 아동을 주 대상으로 설계되지 않았습니다. 개발자는 아동으로부터 개인정보를 고의로 수집하지 않습니다. 광고 기능의 데이터 처리는 위 3항 링크의 각 사업자 정책을 따릅니다. 앱인토스판은 앱인토스 플랫폼 정책에 따라 만 19세 이상 이용자에게 제공됩니다.</p>
-<h2>6. 이용자 권리</h2>
-<p>개발자가 직접 수집·보관하는 개인정보가 없으므로, 기기 내 데이터는 앱 삭제(앱인토스판은 미니앱 저장 데이터 삭제)로 제거할 수 있습니다. iOS·Android판의 광고 식별자 초기화·광고 개인화 제한은 기기 설정에서 조정할 수 있습니다. 앱인토스판에서는 본 게임이 기기 광고 식별자를 직접 사용하지 않으며, 광고 관련 설정은 토스 앱과 기기 설정을 따릅니다.</p>
-<h2>7. 방침 변경</h2>
-<p>본 방침은 관련 법령·서비스 변경에 따라 개정될 수 있으며, 개정 시 본 페이지에 게시합니다.</p>
-<h2>8. 문의처</h2>
-<p>개인정보 보호책임자: 박청민<br>contact@cpworks.kr</p>
-
+<p>본 방침은 씨피웍스(CP Works)가 제공하는 iOS·Android 앱과 앱인토스 미니앱에 적용됩니다.</p>
+<p class="muted">시행일: 2026-10-14 · <a href="#english">English below</a></p>
+<h2>1. 운영자와 문의처</h2>
+<p>개인정보 보호책임자: 박청민<br>문의: contact@cpworks.kr</p>
+<h2>2. 처리하는 정보와 목적</h2>
+<p>게임은 회원가입·로그인을 요구하지 않습니다. 이용하는 기능에 따라 아래 정보가 처리됩니다.</p>
+<table><thead><tr><th>구분</th><th>처리 정보</th><th>목적</th></tr></thead><tbody><tr><td>iOS·Android 이용 분석</td><td>앱 인스턴스 식별자, Android 광고 식별자, 앱·기기 정보, 대략적 위치, 게임 이용·구매 이벤트</td><td>이용 현황 분석과 품질 개선</td></tr><tr><td>iOS·Android 광고</td><td>기기 식별자, 광고 노출·상호작용, 대략적 위치, 진단 정보</td><td>광고 제공·성과 측정·부정행위 방지</td></tr><tr><td>iOS·Android 인앱 결제</td><td>상품 식별자, 거래 확인 정보, 구매 상태</td><td>구매 확인·상품 지급·복원</td></tr><tr><td>앱인토스</td><td>게임 이용 이벤트, SDK 진단·성능 정보, 광고 서비스에서 처리하는 정보</td><td>이용 분석·품질 개선·광고 제공</td></tr><tr><td>방침 페이지 접속</td><td>IP 주소 등 접속 정보</td><td>페이지 제공·보안</td></tr></tbody></table>
+<p>결제는 App Store·Google Play가 처리하며 개발자는 카드번호 등 결제수단 정보를 직접 받지 않습니다. iOS·Android 광고는 비개인화 광고만 요청합니다. 앱인토스판은 토스 로그인을 사용하지 않으며 게임이 별도의 토스 이용자 식별값을 전달하지 않습니다.</p>
+<h2>3. 외부 서비스와 국외 처리</h2>
+<p>외부 서비스를 통한 정보 처리는 이용 중인 플랫폼과 기능에 따라 다릅니다. App Store·Google Play·토스의 계정 및 결제 서비스에서 해당 사업자가 직접 처리하는 정보에는 각 사업자의 방침도 적용됩니다.</p>
+<table><thead><tr><th>서비스·적용 범위</th><th>전달 정보와 목적</th><th>전달 시점·방법</th><th>보관 기준·사업자 안내</th></tr></thead><tbody><tr><td>Google Analytics for Firebase — iOS·Android</td><td>앱 인스턴스 식별자, Android 광고 식별자, 앱·기기 정보, 대략적 위치, 이용·구매 이벤트 / 이용 분석·품질 개선</td><td>앱 실행·이용 시 네트워크로 전송</td><td>§4의 이벤트 2개월·사용자 14개월 설정. <a href="https://policies.google.com/privacy?hl=ko">Google</a></td></tr><tr><td>Google AdMob — iOS·Android</td><td>기기 식별자, 광고 노출·상호작용, 대략적 위치, 진단 정보 / 광고 제공·성과 측정·부정행위 방지</td><td>광고 SDK 초기화·광고 요청·시청 과정에서 네트워크로 전송</td><td>광고·보안 등 사업자의 처리 목적에 따른 보관 기준. <a href="https://policies.google.com/privacy?hl=ko">Google</a></td></tr><tr><td>App Store(iOS)·Google Play(Android)</td><td>상품·거래 확인 정보, 구매 상태 / 구매 확인·지급·복원</td><td>해당 스토어의 구매·복원 과정에서 네트워크로 처리</td><td>플랫폼의 거래·법정 보존 기준. <a href="https://www.apple.com/legal/privacy/data/ko/app-store/">Apple</a> · <a href="https://policies.google.com/privacy?hl=ko">Google</a></td></tr><tr><td>주식회사 비바리퍼블리카 — 앱인토스</td><td>이용 이벤트, SDK 진단·성능 정보, 광고 서비스에서 처리하는 정보 / 이용 분석·품질 개선·광고</td><td>미니앱 실행·이용 및 광고 처리 과정에서 네트워크로 전송</td><td>토스의 기능별 보관 기준. <a href="https://toss.im/privacy-policy">토스</a></td></tr><tr><td>GitHub Pages — 방침 페이지</td><td>IP 주소 등 접속 정보 / 페이지 제공·보안</td><td>페이지 접속 시 네트워크로 전달</td><td>호스팅 서비스의 접속·보안 기록 보관 기준. <a href="https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement">GitHub</a></td></tr></tbody></table>
+<p>Firebase Analytics·AdMob은 Google의 분석·광고 서비스입니다. 해당 서비스의 정보는 Google LLC 및 계열사가 운영하는 미국을 포함한 글로벌 인프라에서 처리될 수 있습니다. 앱인토스 광고도 실행 환경에 따라 Google 광고망을 이용할 수 있습니다.</p>
+<ul><li>이전받는 자: Google LLC (1600 Amphitheatre Parkway, Mountain View, CA 94043, USA), 개인정보 문의 <a href="https://support.google.com/policies/contact/general_privacy_form">Google 개인정보 문의 양식</a></li><li>이전 국가: 미국 등 Google이 운영하는 국가</li><li>이전 일시·방법, 항목, 목적, 보관 기간: 위 표와 §4</li><li>거부 방법과 효과: iOS·Android 앱의 기본 설정 화면에는 분석·광고 전송을 끄는 항목이 없습니다. 국외 이전을 원하지 않으면 앱을 사용하지 않거나 삭제할 수 있으며, 이 경우 iOS·Android 앱을 이용할 수 없습니다. Android 광고 식별자는 기기 설정에서 삭제하거나 재설정할 수 있고, 그래도 게임은 이용할 수 있습니다. 이미 전송된 정보에 관한 요청은 제1항의 문의처로 할 수 있습니다. 앱인토스판의 광고 처리는 토스와 해당 광고 사업자의 설정·방침을 따릅니다.</li></ul>
+<p>외부 사업자가 자체적으로 처리하는 정보의 권리 행사 안내는 <a href="https://policies.google.com/privacy?hl=ko">Google</a>, <a href="https://www.apple.com/kr/privacy/contact">Apple</a>, <a href="https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement#contact-us">GitHub</a>, <a href="https://toss.im/privacy-policy">토스</a>에서 확인할 수 있습니다.</p>
+<h2>4. 보관 기간</h2>
+<p>기기 내 게임 진행도·구매 권한은 앱 저장 공간에 보관됩니다. 운영체제의 백업 설정에 따라 재설치 시 복원될 수 있습니다.</p>
+<p>Firebase Analytics의 보관 설정은 이벤트 데이터 <strong>2개월</strong>, 사용자 데이터 <strong>14개월</strong>입니다. 보관 기간이 만료된 대상 데이터는 Google Analytics가 월별로 자동 삭제합니다. 새 활동이 발생하면 사용자 식별자에 연결된 정보의 보관 기간이 다시 시작됩니다. 대부분의 집계 보고서에는 이 보관 설정이 적용되지 않습니다.</p>
+<p>법령상 보존 대상에 해당하는 계약·청약철회 및 결제·상품 공급 기록은 5년, 소비자 불만·분쟁처리 기록은 3년 보관합니다. 이러한 기간은 해당 법령이 적용되는 기록에 한합니다. App Store·Google Play 등 사업자가 자체적으로 보유하는 계정·거래 기록은 해당 사업자의 보관 기준이 적용됩니다.</p>
+<h2>5. 파기 절차와 방법</h2>
+<p>개인정보가 불필요해지면 처리 목적과 법정 보존 여부를 확인한 뒤 지체 없이 파기합니다. 개발자가 보유하는 전자자료는 복구·재생되지 않도록 삭제하며, 법정 보존 자료는 다른 자료와 분리하여 보관하고 기간 종료 후 파기합니다. 외부 서비스의 자료는 해당 서비스의 삭제 기능·절차를 통해 처리합니다.</p>
+<p>기기 내 데이터는 앱 저장 공간 삭제 또는 앱 제거로 지울 수 있습니다. 앱인토스판은 미니앱 저장 데이터를 삭제하면 됩니다. 기기 데이터 삭제는 운영체제 백업이나 이미 전송된 외부 서비스 기록의 삭제를 의미하지 않습니다.</p>
+<h2>6. 이용자의 권리와 선택</h2>
+<p>개인정보의 열람·정정·삭제·처리정지 등에 관해 제1항의 문의처로 요청할 수 있습니다. 요청자의 권한과 대상 정보를 확인한 뒤 관련 법령에 따라 처리합니다. 이용자를 확인할 수 없는 정보나 법정 보존 대상 등으로 처리가 제한되는 경우에는 그 사유를 안내합니다.</p>
+<p>광고 식별자·개인화 설정은 기기 또는 해당 서비스 설정에서 조정할 수 있습니다. 유료 구매를 이용하지 않아도 기본 게임을 이용할 수 있습니다.</p>
+<h2>7. 연령 안내</h2>
+<p>본 게임은 아동을 주된 대상으로 설계되지 않았습니다. 앱인토스판의 노출 및 이용 가능 연령은 토스의 서비스 운영 정책과 본 게임에 등록된 이용등급에 따라 관리됩니다.</p>
+<h2>8. 정보 보호</h2>
+<p>Firebase 분석 데이터는 HTTPS 암호화 통신으로 전송합니다. 기기 내 게임 데이터는 운영체제의 앱 저장 공간에 보관됩니다.</p>
+<h2>9. 방침 변경</h2>
+<p>법령이나 서비스 변경에 따라 방침이 개정될 수 있으며 변경된 방침과 시행일은 본 페이지에 게시합니다.</p>
 <hr>
-
 <h1 id="english">Privacy Policy — Escape, Sheep! (탈출해, 양!)</h1>
-<p class="muted">Effective date: 2026-08-05</p>
-<p>This policy applies both to the app distributed through the App Store and Google Play (the &quot;iOS/Android edition&quot;) and to the mini app provided through Apps in Toss (the &quot;Apps in Toss edition&quot;). Differences between the two editions are noted separately.</p>
-<h2>1. Developer</h2>
-<p>This game is developed and operated by CP Works.<br>Data Protection Officer: Chungmin Park<br>Contact: contact@cpworks.kr</p>
-<h2>2. Information collected and purpose</h2>
-<p>The game has no sign-up or login, and the developer does not directly collect or store your personal information. However, third-party advertising included in the game may collect and process information to serve ads, and the advertising SDK differs by edition.</p>
-<h3>2-1. iOS/Android edition — Google AdMob</h3>
-<ul>
-<li>Device advertising identifier and device identifiers</li>
-<li>Advertising interaction data (ads you have seen, app launches and interactions)</li>
-<li>Coarse location (based on IP address)</li>
-<li>Diagnostics (crash logs, performance data)</li>
-</ul>
-<p>Purpose: serving ads and measuring ad performance, SDK diagnostics and improvement. The game serves non-personalized ads by default and does not present an App Tracking Transparency (ATT) prompt.</p>
-<h3>2-2. Apps in Toss edition — Apps in Toss in-app advertising</h3>
-<p>The Google AdMob SDK does not run in the Apps in Toss edition; ads are served only through the in-app advertising feature provided by Apps in Toss. That feature combines Toss Ads and Google AdMob, and the ad network is selected automatically depending on the runtime environment.</p>
-<ul>
-<li>When requesting an ad, the only value this game passes is the ad group ID issued by the Apps in Toss console. No user-identifying value is passed.</li>
-<li>Ads are displayed inside the Toss app. The categories of information processed for ad delivery and performance measurement, and how they are processed, are governed by the policies of Toss and of the selected ad network (see the links in Section 3).</li>
-<li>This game does not use Toss Login, and does not use the user identifier value offered by Apps in Toss.</li>
-<li>The Apps in Toss SDK sends diagnostic and performance events (screen transitions, error messages, frame stalls, memory conditions, and the like) to the Apps in Toss platform while the game runs. This game does not put any user-identifying value into those events.</li>
-<li>Because the Apps in Toss edition runs inside the Toss app, this game does not present its own App Tracking Transparency (ATT) prompt.</li>
-</ul>
-<h2>3. Third-party SDKs</h2>
-<ul>
-<li>(iOS/Android edition) Google AdMob (Google LLC): ad serving. Google&#x27;s data processing is governed by Google&#x27;s Privacy Policy and advertising policies.</li>
-<ul>
-<li>Google Privacy Policy: <a href="https://policies.google.com/privacy">https://policies.google.com/privacy</a></li>
-<li>Google Ads policies: <a href="https://policies.google.com/technologies/ads">https://policies.google.com/technologies/ads</a></li>
-</ul>
-<li>(Apps in Toss edition) Apps in Toss in-app advertising (Viva Republica, Inc.): ad serving. Toss&#x27;s data processing is governed by the Toss Privacy Policy. Depending on the runtime environment, Google AdMob may be selected as the ad network, in which case the Google policies above also apply to Google&#x27;s data processing.</li>
-<ul>
-<li>Toss Privacy Policy: <a href="https://toss.im/privacy-policy">https://toss.im/privacy-policy</a></li>
-</ul>
-</ul>
-<h2>4. On-device storage (no server transmission)</h2>
-<p>Game progress and records (highest cleared level, coins, per-stage records, etc.) are stored only on your device and are never transmitted to the developer&#x27;s servers or elsewhere. In the iOS/Android edition they are removed when you delete the app; in the Apps in Toss edition they are removed when the mini app&#x27;s stored data is cleared.</p>
-<h2>5. Children</h2>
-<p>This game is not primarily directed at children of a specific age. The developer does not knowingly collect personal information from children. Data processing by the advertising features is governed by the policies of each provider linked in Section 3. Under Apps in Toss platform policy, the Apps in Toss edition is provided to users aged 19 and over.</p>
-<h2>6. Your choices</h2>
-<p>Because the developer stores no personal information itself, on-device data can be removed by deleting the app (or, in the Apps in Toss edition, by clearing the mini app&#x27;s stored data). In the iOS/Android edition you can reset your advertising identifier or limit ad personalization in your device settings. In the Apps in Toss edition this game does not use a device advertising identifier directly, and ad-related settings follow the Toss app and your device settings.</p>
-<h2>7. Changes</h2>
-<p>This policy may be updated to reflect legal or service changes; updates will be posted on this page.</p>
-<h2>8. Contact</h2>
-<p>Data Protection Officer: Chungmin Park<br>contact@cpworks.kr</p>
+<p>This policy applies to the iOS/Android app and Apps in Toss mini app operated by CP Works.</p>
+<p class="muted">Effective date: 2026-10-14</p>
+<h2>1. Operator and contact</h2>
+<p>Data Protection Officer: Chungmin Park<br>Contact: contact@cpworks.kr</p>
+<h2>2. Information and purposes</h2>
+<p>The game requires no sign-up or login. Information processed depends on the features used.</p>
+<table><thead><tr><th>Feature</th><th>Information</th><th>Purpose</th></tr></thead><tbody><tr><td>iOS/Android analytics</td><td>App-instance identifiers, Android advertising ID, app/device information, coarse location, usage and purchase events</td><td>Usage analysis and quality improvement</td></tr><tr><td>iOS/Android advertising</td><td>Device identifiers, ad impressions/interactions, coarse location and diagnostics</td><td>Advertising, measurement and fraud prevention</td></tr><tr><td>iOS/Android purchases</td><td>Product identifiers, transaction verification and purchase status</td><td>Verification, fulfillment and restoration</td></tr><tr><td>Apps in Toss</td><td>Usage events, SDK diagnostics/performance and information processed by advertising services</td><td>Analysis, quality improvement and advertising</td></tr><tr><td>Policy-page visits</td><td>IP address and access information</td><td>Page delivery and security</td></tr></tbody></table>
+<p>App Store and Google Play process payments; the developer does not directly receive payment-card numbers. The iOS/Android app requests non-personalized ads only. The Apps in Toss edition does not use Toss Login or pass a separate Toss user identifier from the game.</p>
+<h2>3. External services and international processing</h2>
+<p>External processing depends on the platform and features used. Providers' policies also apply to information they process directly for their own account and payment services, including App Store, Google Play and Toss.</p>
+<table><thead><tr><th>Service and scope</th><th>Information and purpose</th><th>Timing and method</th><th>Retention and provider information</th></tr></thead><tbody><tr><td>Google Analytics for Firebase — iOS/Android</td><td>App-instance identifiers, Android advertising ID, app/device information, coarse location, usage/purchase events / analytics and quality improvement</td><td>Network transmission during app use</td><td>Section 4: events 2 months; users 14 months. <a href="https://policies.google.com/privacy">Google</a></td></tr><tr><td>Google AdMob — iOS/Android</td><td>Device identifiers, ad impressions/interactions, coarse location, diagnostics / advertising, measurement and fraud prevention</td><td>Network transmission during ad SDK initialization, ad requests and viewing</td><td>Provider retention for advertising, security and related purposes. <a href="https://policies.google.com/privacy">Google</a></td></tr><tr><td>App Store (iOS) and Google Play (Android)</td><td>Product/transaction verification and purchase status / verification, fulfillment and restoration</td><td>Network processing during purchases and restoration through the relevant store</td><td>Platform transaction and statutory retention rules. <a href="https://www.apple.com/legal/privacy/data/en/app-store/">Apple</a> · <a href="https://policies.google.com/privacy">Google</a></td></tr><tr><td>Viva Republica — Apps in Toss</td><td>Usage events, SDK diagnostics/performance and information processed by advertising services / analytics, quality and advertising</td><td>Network transmission during mini app use and advertising</td><td>Toss retention for the relevant features. <a href="https://toss.im/privacy-policy">Toss</a></td></tr><tr><td>GitHub Pages — policy page</td><td>IP address and access information / page delivery and security</td><td>Network transmission when the page is visited</td><td>Hosting access/security retention rules. <a href="https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement">GitHub</a></td></tr></tbody></table>
+<p>Firebase Analytics and AdMob are Google analytics and advertising services. Information processed through these services may be handled on global infrastructure operated by Google LLC and its affiliates, including in the US. Apps in Toss advertising may also use Google's ad network depending on the environment.</p>
+<ul><li>Recipient: Google LLC (1600 Amphitheatre Parkway, Mountain View, CA 94043, USA); privacy contact via <a href="https://support.google.com/policies/contact/general_privacy_form">Google's privacy contact form</a></li><li>Countries: the US and other countries where Google operates</li><li>Timing, method, items, purposes and retention: the table above and section 4</li><li>How to refuse and its effect: the iOS/Android app's standard settings screen has no option to turn off analytics or advertising transmission. If you do not want this international transfer, you can stop using or uninstall the app; in that case you cannot use the iOS/Android app. You can delete or reset the Android advertising ID in device settings and still play the game. Requests about information already transmitted can be sent to the contact in section 1. Advertising in the Apps in Toss edition follows the settings and policies of Toss and the relevant ad provider.</li></ul>
+<p>For rights concerning providers' own processing, see <a href="https://policies.google.com/privacy">Google</a>, <a href="https://www.apple.com/privacy/contact">Apple</a>, <a href="https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement#contact-us">GitHub</a> and <a href="https://toss.im/privacy-policy">Toss</a>.</p>
+<h2>4. Retention</h2>
+<p>Game progress and purchase entitlements are stored in the app's device storage. OS backup settings may allow restoration after reinstallation.</p>
+<p>Firebase Analytics retention is configured to <strong>2 months for event data</strong> and <strong>14 months for user data</strong>. Google Analytics automatically deletes expired covered data in monthly processing. New activity restarts retention for information associated with user identifiers. Most aggregate reports are outside these retention settings.</p>
+<p>Where Korean statutory retention applies, contract/cancellation and payment/supply records are retained for 5 years, and consumer complaint/dispute records for 3 years. These periods apply only to records covered by the relevant law. Providers such as App Store and Google Play apply their own retention rules to account and transaction records they hold for their services.</p>
+<h2>5. Destruction</h2>
+<p>When personal data is no longer needed, we check its purpose and legal retention requirements and destroy it without undue delay. Developer-held electronic records are deleted to prevent recovery or reproduction. Statutory records are segregated and destroyed after retention expires. Data in external services is handled through the service's deletion tools/procedures.</p>
+<p>Clearing app storage or uninstalling removes local data. For Apps in Toss, clear the mini app's stored data. Local deletion does not erase OS backups or data already sent to external services.</p>
+<h2>6. Your rights and choices</h2>
+<p>Use the contact in section 1 to request access, correction, deletion or processing restrictions. We verify the requester's authority and relevant data and handle requests under applicable law. If identification limitations or legal retention prevent a request, we explain why.</p>
+<p>Advertising identifiers and personalization can be managed in device/provider settings. Paid purchases are optional for basic gameplay.</p>
+<h2>7. Age eligibility</h2>
+<p>The game is not primarily designed for children. Availability and age eligibility for the Apps in Toss edition are governed by Toss's service policies and the game's registered age rating.</p>
+<h2>8. Information protection</h2>
+<p>Firebase analytics uses encrypted HTTPS transmission. Local game data is held in the operating system's app storage.</p>
+<h2>9. Changes</h2>
+<p>This policy may change with laws or services. Revised policies and their effective dates will be posted on this page.</p>
 
 </body>
 </html>
-
